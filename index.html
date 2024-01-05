@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Mario Jump</title>
+</head>
+<body>
+    <div class="game-board">
+        <span class="score">0</span>
+        <img src="images/clouds.png" class="clouds">
+        <img src="images/mario.gif" class="mario">
+        <img src="images/pipe.png" class="pipe">
+    </div>
+
+    <audio controls class="audio">
+        <source src="audio/smb_jump-small.wav" type="audio/wav" >
+    </audio>
+
+    <audio controls class="game-over">
+        <source src="audio/smb_gameover.wav" type="audio/wav" >
+    </audio>
+
+    <button onclick="window.location.reload()" class="reiniciar">Reiniciar</button>
+
+<script src="js/script.js"></script>
+</body>
+</html>
